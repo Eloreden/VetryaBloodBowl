@@ -1,0 +1,56 @@
+﻿@model VetryaBloodBowl.Models.TeamRoster
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Team Roster</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt class="TableHeader">
+            @Html.DisplayNameFor(model => model.Race)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Race)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RerollMaxQuantityDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RerollMaxQuantityDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RerollCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RerollCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SpecialRules)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SpecialRules)
+        </dd>
+
+    </dl>
+
+    @if (Model.Players != null && Model.Players.Count > 0)
+    {
+        Html.RenderPartial("PlayerView", Model.Players);
+    }
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
