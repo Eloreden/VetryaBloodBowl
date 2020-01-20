@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodBowlCompetitionManagement", "BloodBowlCompetitionManagement\BloodBowlCompetitionManagement.csproj", "{8C44948A-9B12-4A1A-81ED-D1F3822FE5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{FF4FA4E7-9986-40EC-B331-E4A4386E93A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C44948A-9B12-4A1A-81ED-D1F3822FE5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C44948A-9B12-4A1A-81ED-D1F3822FE5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C44948A-9B12-4A1A-81ED-D1F3822FE5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C44948A-9B12-4A1A-81ED-D1F3822FE5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4FA4E7-9986-40EC-B331-E4A4386E93A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4FA4E7-9986-40EC-B331-E4A4386E93A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4FA4E7-9986-40EC-B331-E4A4386E93A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4FA4E7-9986-40EC-B331-E4A4386E93A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F0544B5-3CC2-4E60-89F9-225012B15EF0}
+	EndGlobalSection
+EndGlobal
